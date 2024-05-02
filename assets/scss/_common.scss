@@ -1,0 +1,66 @@
+.btn{
+    padding: 10px 20px;
+    text-decoration: none;
+
+    &-inline{
+        border: 1px solid $body-primary-color;
+        color: $body-fg-color;
+        border-radius: 50px;
+        display: inline-flex;
+        align-items: center;
+        
+        i{
+            margin-right: 10px;
+        }
+    }
+
+    &-inline.btn-large{
+        font-size: 20px;
+        padding: 20px 40px;
+        color: $body-primary-color;
+    }
+
+    &-primary.btn-large{
+        font-size: 20px;
+        padding: 20px 40px;
+    }
+
+    &-large{
+        font-size: 20px;
+        padding: 20px 40px;
+    }
+
+    &-primary{
+        border: 1px solid $body-primary-color;
+        color: $body-bg-color;
+        background: $body-primary-color;
+        border-radius: 50px;
+        display: inline-flex;
+        align-items: center;
+        
+        i{
+            margin-right: 10px;
+        }
+    }
+
+    &-container{
+        margin-top: 30px;
+
+        *{
+            margin-right: 15px;
+        }
+    }
+}
+
+i{
+    &.ma{
+        &-phone{
+            width: 15px;
+            height: 15px;
+            display: block;
+            background-image: url('../images/phone-icon.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

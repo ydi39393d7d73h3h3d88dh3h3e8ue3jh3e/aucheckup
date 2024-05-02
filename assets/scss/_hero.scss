@@ -1,0 +1,43 @@
+.hero-section{
+
+    section{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-grow: 1;
+        align-items: center;
+
+        .hero-text{
+            &-image{
+                flex-grow: 1;
+                display: flex;
+                flex-direction: row-reverse;
+                
+                img{
+                    width: 100%;
+                    max-width: 700px;
+                    height: auto;
+                }
+            }
+
+            &-box{
+                .hero-text{
+                    width: 720px;
+                    margin-right: 30px; 
+                    color: $body-fg-color;
+
+                    &.primary{
+                        font-size: 65px;
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                    }
+
+                    &.secondary{
+                        font-size: 34px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+}
