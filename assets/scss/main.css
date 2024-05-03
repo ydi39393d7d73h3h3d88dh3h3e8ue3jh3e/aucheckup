@@ -23,6 +23,17 @@ container {
   color: #00F5BB;
 }
 
+footer {
+  background: #000;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+footer > a {
+  color: #fff;
+  text-align: center;
+}
+
 .about-section .section-title {
   font-size: 35px;
   font-weight: bold;
