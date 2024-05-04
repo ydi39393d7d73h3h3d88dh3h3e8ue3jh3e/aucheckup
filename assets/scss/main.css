@@ -351,6 +351,7 @@ footer > a {
 .btn {
   padding: 10px 20px;
   text-decoration: none;
+  transition: 0.3s;
 }
 .btn-inline {
   border: 1px solid #00F5BB;
@@ -361,6 +362,14 @@ footer > a {
 }
 .btn-inline i {
   margin-right: 10px;
+}
+.btn-inline:hover {
+  background: #00F5BB !important;
+  color: #000 !important;
+  transition: 0.3s;
+}
+.btn-inline:hover > svg > g > path {
+  fill: #000;
 }
 .btn-inline.btn-large {
   font-size: 20px;
@@ -391,6 +400,11 @@ footer > a {
 }
 .btn-container * {
   margin-right: 15px;
+}
+.btn > svg {
+  margin-right: 10px;
+  width: 13px;
+  height: 13px;
 }
 
 i.ma-phone {
