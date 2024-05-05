@@ -425,6 +425,7 @@ header {
   padding: 15px 0px;
   left: 60px;
   width: calc(100% - 120px);
+  z-index: 10000;
 }
 header logo {
   color: #00F5BB;
