@@ -98,6 +98,11 @@ footer > a {
                             width: 100%;
                             height: auto;
                         }
+
+                        & > svg {
+                            width: 100%;
+                            height: auto;
+                        }
                     }
                 }
 
@@ -120,6 +125,12 @@ footer > a {
                     }
 
                     & > img {
+                        width: 100%;
+                        height: auto;
+                        color: #fff;
+                    }
+
+                    & > svg {
                         width: 100%;
                         height: auto;
                         color: #fff;
@@ -238,6 +249,11 @@ footer > a {
                             width: 100%;
                             height: auto;
                         }
+
+                        & > svg {
+                            width: 100%;
+                            height: auto;
+                        }
                     }
                 }
 
@@ -335,6 +351,11 @@ footer > a {
         height: 45px;
 
         & > img {
+            width: 100%;
+            height: auto;
+        }
+
+        & > svg {
             width: 100%;
             height: auto;
         }

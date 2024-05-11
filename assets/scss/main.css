@@ -94,6 +94,10 @@ footer > a {
   width: 100%;
   height: auto;
 }
+.about-section .section-services-item-top-logo > svg {
+  width: 100%;
+  height: auto;
+}
 .about-section .section-services-item-info {
   position: absolute;
   width: 20px;
@@ -112,6 +116,11 @@ footer > a {
   color: #fff;
 }
 .about-section .section-services-item-info > img {
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+.about-section .section-services-item-info > svg {
   width: 100%;
   height: auto;
   color: #fff;
@@ -207,6 +216,10 @@ footer > a {
   width: 100%;
   height: auto;
 }
+.services-section .section-services-item-top-logo > svg {
+  width: 100%;
+  height: auto;
+}
 .services-section .section-services-item-info {
   position: absolute;
   width: 20px;
@@ -282,6 +295,10 @@ footer > a {
   height: 45px;
 }
 .section-advanced-services-item-logo > img {
+  width: 100%;
+  height: auto;
+}
+.section-advanced-services-item-logo > svg {
   width: 100%;
   height: auto;
 }
@@ -481,7 +498,8 @@ header .menu-item:hover::after {
 .hero-section section .hero-text-image img {
   width: 100%;
   max-width: 700px;
-  height: auto;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .hero-section section .hero-text-box .hero-text {
   width: 720px;
@@ -586,5 +604,8 @@ header .menu-item:hover::after {
     display: flex;
     animation: 0.5s slide-from-top ease-in-out;
     z-index: 9000;
+  }
+  .hero-section section .hero-text-image {
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */
