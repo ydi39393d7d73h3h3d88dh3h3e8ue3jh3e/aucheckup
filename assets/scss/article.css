@@ -31,6 +31,11 @@ footer {
   background: #000;
   text-align: center;
   padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: calc(100% - 40px);
+  left: 0px;
 }
 
 footer > a {
