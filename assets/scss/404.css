@@ -1,0 +1,45 @@
+.error-box {display: flex;align-items: center;justify-content: center;min-height: 100vh;flex-direction: column;}
+
+.error-box-icon {
+    font-size: 180px;
+    font-weight: bold;
+    color: #00F5BB;
+}
+
+.error-box-text {
+    color: #fff;
+    font-size: 30px;
+}
+
+.error-box-btn {
+    background: #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 25px;
+    color: #232223;
+}
+
+@keyframes bg {
+    0%{
+        background: #232223;
+    }
+    50%{
+        background: #001816;
+    }
+    100%{
+        background: #232223;
+    }
+}
+
+body{
+    animation: bg ease-in-out 10s infinite;
+}
+
+header.menu {
+    background-color: transparent;
+}
+
+div.menu {
+    background: transparent;
+}
